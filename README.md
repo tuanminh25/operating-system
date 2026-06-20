@@ -137,3 +137,8 @@ Each has: the core lesson, sub-steps, AI tier for the *core* logic (scaffolding 
 *(Use this space to record any deliberate rule-breaks or design pivots, with reasoning — e.g. "skipped writing own bootloader, using GRUB, because the lesson I want is OS internals not boot-sector assembly, documented as a conscious choice not a shortcut.")*
 
 -
+
+## Credits
+
+Steps are inspired by https://wiki.osdev.org/
+
