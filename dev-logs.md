@@ -1,4 +1,4 @@
-1/10/26
+# 1/10/26
 
 okay so I picked this son up again after months ish 
 
@@ -13,3 +13,6 @@ So relax, let's read it again
 Right so I just ctrl + A and del everything in the read me
 
 Woa , pretty tired ish rn 
+
+# 4/10/26
+
