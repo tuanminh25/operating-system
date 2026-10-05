@@ -97,6 +97,11 @@ If no, then continue after Build GCC, either build gdb or Using the new Compiler
 https://wiki.osdev.org/GCC_Cross-Compiler
 
 
+Optional - tomorrow compare using file and readelf -h on a simple c program
+
+gcc -c test.c -o host.o
+i686-elf-gcc -c -ffreestanding test.c -o cross.o
+
 # Setting everything up
 
 link: https://wiki.osdev.org/GCC_Cross-Compiler
