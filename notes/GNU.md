@@ -1,0 +1,1 @@
+GNU mirrors: GNU is the project behind gcc and binutils. ftp.gnu.org is their official file server. "Mirrors" are copies of that server around the world, so downloads are faster.

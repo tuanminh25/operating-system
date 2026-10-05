@@ -86,11 +86,23 @@ Compiling AnchorOS while running AnchorOS.
 
 # Progress thread
 
-Day one (again?) - or Day Ones. Tomorrow, we would need to divide our phase plan , understand the structure more of an OS 
+Setting up the proj
 
-the current convo so far is like : 
+Consider build gdb for our new os
 
-"back then you were saying there is quite some more pillar: like plumbing, protection, concurrency, devices , tooling , that was originally mentioned 
+Building gcc, check if there is any problem! 
 
-this created a gap in our doc, which is not ideal ! 
-"
+If no, then continue after Build GCC, either build gdb or Using the new Compiler
+
+https://wiki.osdev.org/GCC_Cross-Compiler
+
+
+# Setting everything up
+
+link: https://wiki.osdev.org/GCC_Cross-Compiler
+
+Well because I am using fedora, so for ease of use in the future, I will just list all here:
+
+## Host side 
+sudo dnf install gcc gcc-c++ make bison flex gmp-devel libmpc-devel mpfr-devel texinfo isl-devel
+
