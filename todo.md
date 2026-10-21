@@ -1,3 +1,6 @@
+Ref: master link: https://wiki.osdev.org/Creating_an_Operating_System
+
+
 Even smaller focus right now:
 boot.s - using GNU assembler - done
 next - for tomorrow - kernel.c
