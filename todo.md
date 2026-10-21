@@ -1,5 +1,6 @@
 Even smaller focus right now:
-boot.s - using GNU assembler - NASM would be just fine
+boot.s - using GNU assembler - done
+next - for tomorrow - kernel.c
 
 Smaller focus right now:
 
