@@ -2,6 +2,9 @@ Even smaller focus right now:
 boot.s - using GNU assembler - done
 next - for tomorrow - kernel.c
 
+https://wiki.osdev.org/Bare_Bones
+
+
 Smaller focus right now:
 
 boot.s - kernel entry point that sets up the processor environment
