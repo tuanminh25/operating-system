@@ -5,6 +5,15 @@ Even smaller focus right now:
 boot.s - using GNU assembler - done
 next - for tomorrow - kernel.c
 
+we are exploring or just explored VGA text mode from this section:
+Freestanding and Hosted Environments
+
+So for tomorrow: briefly read it again: 
+Freestanding and Hosted Environments
+
+and then move onto
+Writing a kernel in C
+
 https://wiki.osdev.org/Bare_Bones
 
 
