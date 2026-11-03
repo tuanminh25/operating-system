@@ -4,13 +4,13 @@ Our current page progress: https://wiki.osdev.org/Bare_Bones
 ### Smaller focus right now:
 
 boot.s - kernel entry point that sets up the processor environment
-kernel.c - your actual kernel routines
+kernel.c - actual kernel routines
 linker.ld - for linking the above files
 
 ###  Even smaller focus right now:
 boot.s - using GNU assembler - done
--> next - for tomorrow - kernel.c
-
+kernel.c - done
+-> next: Linking the Kernel
 
 ### -> We are investigating kernel.c
 Just done:vga_entry_color
