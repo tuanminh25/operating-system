@@ -53,3 +53,26 @@ The full flow looks like:
 - write the real address (or distance) into each hole
 
 4. OUTPUT: the program
+
+
+# Jobs 
+
+The linker normally automatically reads the object .o file and link things together to make an executable. But sometimes have to manually do it if the default is incorrect - in this case, this is the kernel
+
+# Special in this project
+
+In this project we write out own linker.ld because the default linker script is not compatible! In more detail, default linker script works with assumption that the build target is for this os, however our kernel is the OS - there is no prior assumption to work with so we have to write it our own
+
+Several differences
+
+```text
+Default assumption                              | Our kernel 
+Load Linux usual address (0x08048000)           | load at 2M
+does not know about multiboot                   | header first within the first 8Kib
+layout tuned for a user program                 | each section is 4K-aligned
+
+```
+
+# Section starts
+
+Every section in a .o starts at 0 meaning .bss, .multiboot, .text - all starts at 0 

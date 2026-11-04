@@ -3,3 +3,6 @@
 
 # Upcoming build outputs
 *.iso
+
+# Temp folder
+temp
