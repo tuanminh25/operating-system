@@ -87,6 +87,6 @@ Compiling AnchorOS while running AnchorOS.
 # Progress thread
 Booted on QEMU
 
-![Bootloader menu](bootloader_menu.png)
+![Bootloader menu](screenshots/bootloader_menu.png)
 
-![Hello!!!](hello_myos.png)
+![Hello!!!](screenshots/hello_myos.png)
