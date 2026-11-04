@@ -12,4 +12,6 @@ i686-elf-gcc -T linker.ld -o myos -ffreestanding -O2 -nostdlib boot.o kernel.o -
 
 # objdump inspect
 # i686-elf-objdump -h -t -d -r *.o
-# 
+
+# Install packages for cdrom image
+# sudo dnf install grub2-tools-extra xorriso grub2-pc-modules mtools
