@@ -1,25 +1,23 @@
 Master link: https://wiki.osdev.org/Creating_an_Operating_System
 Our current page progress: https://wiki.osdev.org/Bare_Bones
 
-### Smaller focus right now:
+# Current focus: Moving Forward
+Next time visit, choose to explore:
 
-boot.s - kernel entry point that sets up the processor environment
-kernel.c - actual kernel routines
-linker.ld - for linking the above files
+Adding Support for Newlines to Terminal Driver
+Implementing Terminal Scrolling
+Rendering Colorful ASCII Art
+Calling Global Constructors
+Meaty Skeleton
+Going Further
+Bare Bones II
 
-###  Even smaller focus right now:
-boot.s - using GNU assembler - done
-kernel.c - done
--> next: Linking the Kernel
-
-### -> We are investigating kernel.c
-Just done:vga_entry_color
-Next stop: static inline uint16_t vga_entry
+Also a quick look into: Frequently Asked Questions
 
 ### Prerequisite that we have done: 
 
 cross compiler
-
+boot.s + kernel.c + linker.ld booted on qemu
 
 ### Big generic scary one, just look for now, will tick later:
 
