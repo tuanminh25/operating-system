@@ -85,29 +85,8 @@ Note: the ramdisk is persistence's *interface* without real persistence (it vani
 Compiling AnchorOS while running AnchorOS.
 
 # Progress thread
+Booted on QEMU
 
-Setting up the proj
+![Bootloader menu](bootloader_menu.png)
 
-Consider build gdb for our new os
-
-Building gcc, check if there is any problem! 
-
-If no, then continue after Build GCC, either build gdb or Using the new Compiler
-
-https://wiki.osdev.org/GCC_Cross-Compiler
-
-
-Optional - tomorrow compare using file and readelf -h on a simple c program
-
-gcc -c test.c -o host.o
-i686-elf-gcc -c -ffreestanding test.c -o cross.o
-
-# Setting everything up
-
-link: https://wiki.osdev.org/GCC_Cross-Compiler
-
-Well because I am using fedora, so for ease of use in the future, I will just list all here:
-
-## Host side 
-sudo dnf install gcc gcc-c++ make bison flex gmp-devel libmpc-devel mpfr-devel texinfo isl-devel
-
+![Hello!!!](hello_myos.png)
