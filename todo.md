@@ -1,23 +1,14 @@
+Hint: whenever feeling lost, comeback to this link: 
+
 Master link: https://wiki.osdev.org/Creating_an_Operating_System
-Our current page progress: https://wiki.osdev.org/Bare_Bones
 
-# Current focus: Moving Forward
-Next time visit, choose to explore:
-
-Adding Support for Newlines to Terminal Driver
-Implementing Terminal Scrolling
-Rendering Colorful ASCII Art
-Calling Global Constructors
-Meaty Skeleton
-Going Further
-Bare Bones II
-
-Also a quick look into: Frequently Asked Questions
+Our current page progress: https://wiki.osdev.org/Meaty_Skeleton
 
 ### Prerequisite that we have done: 
 
-cross compiler
-boot.s + kernel.c + linker.ld booted on qemu
+The barebone including:
+- cross compiler
+- boot.s + kernel.c + linker.ld booted on qemu
 
 ### Big generic scary one, just look for now, will tick later:
 
